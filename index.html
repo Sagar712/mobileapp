@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Secret Script</div>
+      <div class="seeting" onclick="changeicon()">
+        <i class="fas fa-bars" id="changeiconq"></i>
+      </div>
+    </header>
+    <div class="dropdown">
+      <ul class="options">
+        <li class="menu_item" onclick="location.href='#'">
+          <button class="navbar_links">App</button>
+        </li>
+        <li class="menu_item" onclick="location.href='#'">
+          <button class="navbar_links">Storage</button>
+        </li>
+        <li class="menu_item" onclick="location.href='#'">
+          <button class="navbar_links">Contact</button>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="ovelay2" onclick="overlayhandle()"></div>
+
+    <div class="adjuster"></div>
+    <div class="allContent">
+      <div id="content1">
+        <p>
+          Vishal Wankhade overflow-wrap and word-break behave very similarly and
+          can be used to solve similar problems. A basic summary of the
+          difference, as explained in the CSS specification is: overflow-wrap is
+          generally used to avoid problems with long strings causing broken
+          layouts due to text flowing outside a container. word-break specifies
+          soft wrap opportunities between letters commonly associated with
+          languages like Chinese, Japanese, and Korean (CJK). After describing
+          examples of how word-break can be used in CJK content, the spec says:
+          “To enable additional break opportunities only in the case of
+          overflow, see overflow-wrap“.
+          <br /><br /><br />
+          From this, we can surmise that word-break is best used with
+          non-English content that requires specific word-breaking rules, and
+          that might be interspersed with English content, while overflow-wrap
+          should be used to avoid broken layouts due to long strings, regardless
+          of the language used.
+          <br /><br />
+          The Historical word-wrap Property overflow-wrap is the standard name
+          for its predecessor, the word-wrap property. word-wrap was originally
+          a proprietary Internet Explorer-only feature that was eventually
+          supported in all browsers despite not being a standard.
+          <br /><br />
+          word-wrap accepts the same values as overflow-wrap and behaves the
+          same way. According to the spec, browsers “must treat word-wrap as an
+          alternate name for the overflow-wrap property, as if it were a
+          shorthand of overflow-wrap“. Also, all user agents are required to
+          support word-wrapindefinitely, for legacy reasons.
+          <br /><br /><br />
+          Both overflow-wrap and word-wrap will pass CSS validation as long as
+          the validator is set to test against CSS3 or higher (currently the
+          default).
+        </p>
+      </div>
+
+      <div id="content2">
+        <p>
+          Akash wankhade word-break specifies soft wrap opportunities between
+          letters commonly associated with languages like Chinese, Japanese, and
+          Korean (CJK). After describing examples of how word-break can be used
+          in CJK content, the spec says: “To enable additional break
+          opportunities only in the case of overflow, see overflow-wrap“.
+          <br /><br /><br />
+          From this, we can surmise that word-break is best used with
+          non-English content that requires specific word-breaking rules, and
+          that might be interspersed with English content, while overflow-wrap
+          should be used to avoid broken layouts due to long strings, regardless
+          of the language used.
+          <br /><br />
+          The Historical word-wrap Property overflow-wrap is the standard name
+          for its predecessor, the word-wrap property. word-wrap was originally
+          a proprietary Internet Explorer-only feature that was eventually
+          supported in all browsers despite not being a standard.
+          <br /><br />
+          word-wrap accepts the same values as overflow-wrap and behaves the
+          same way. According to the spec, browsers “must treat word-wrap as an
+          alternate name for the overflow-wrap property, as if it were a
+          shorthand of overflow-wrap“. Also, all user agents are required to
+          support word-wrapindefinitely, for legacy reasons.
+          <br /><br /><br />
+        </p>
+      </div>
+
+      <div id="content3">
+        Sagar wankhade overflow-wrap and word-break behave very similarly and
+        can be used to solve similar problems. A basic summary of the
+        difference, as explained in the CSS specification is: overflow-wrap is
+        generally used to avoid problems with long strings causing broken
+        layouts due to text flowing outside a container. word-break specifies
+        soft wrap opportunities between letters commonly associated with
+        languages like Chinese, Japanese, and Korean (CJK). After describing
+        examples of how word-break can be used in CJK content, the spec says:
+        “To enable additional break opportunities only in the case of overflow,
+        see overflow-wrap“.
+        <br /><br /><br />
+      </div>
+    </div>
+    <div class="footla"></div>
+    <footer>
+      <div onclick="swipeleft1()">
+        <i class="fab fa-affiliatetheme" id="icon1"></i>
+      </div>
+      <div class="logo" onclick="swipeleft2()">
+        <i class="fas fa-basketball-ball" id="icon2"></i>
+      </div>
+
+      <div class="seeting" onclick="swipeleft3()">
+        <i class="fas fa-chart-bar" id="icon3"></i>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
