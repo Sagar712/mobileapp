@@ -35,12 +35,14 @@ function changeicon(){
         document.getElementById("changeiconq").className="fas fa-times";
         drop.classList.toggle("active");
         overlay.classList.toggle("active");
+        document.querySelector(".seeting").classList.toggle("active");
     }
         
     else{
         document.getElementById("changeiconq").className="fas fa-bars";
         drop.classList.toggle("active");
         overlay.classList.toggle("active");
+        document.querySelector(".seeting").classList.toggle("active");
     }
         
 }
@@ -55,11 +57,13 @@ function overlayhandle(){
         document.getElementById("changeiconq").className="fas fa-times";
         drop.classList.toggle("active");
         overlay.classList.toggle("active");
+        document.querySelector(".seeting").classList.toggle("active");
     }
         
     else{
         document.getElementById("changeiconq").className="fas fa-bars";
         drop.classList.toggle("active");
         overlay.classList.toggle("active");
+        document.querySelector(".seeting").classList.toggle("active");
     }
 }
