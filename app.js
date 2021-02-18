@@ -5,7 +5,7 @@ function swipeleft1(){
     document.getElementById("icon1").style.color="#fff";
     document.getElementById("icon2").style.color="rgb(151, 202, 209)";
     document.getElementById("icon3").style.color="rgb(151, 202, 209)";
-
+    document.getElementById("allcont").scrollTop=0;
 }
 
 function swipeleft2(){
@@ -15,6 +15,7 @@ function swipeleft2(){
     document.getElementById("icon2").style.color="#fff";
     document.getElementById("icon1").style.color="rgb(151, 202, 209)";
     document.getElementById("icon3").style.color="rgb(151, 202, 209)";
+    document.getElementById("allcont").scrollTop=0;
 }
 
 function swipeleft3(){
@@ -24,6 +25,7 @@ function swipeleft3(){
     document.getElementById("icon3").style.color="#fff";
     document.getElementById("icon2").style.color="rgb(151, 202, 209)";
     document.getElementById("icon1").style.color="rgb(151, 202, 209)";
+    document.getElementById("allcont").scrollTop=0;
 }
 
 let chngeicn=0;
